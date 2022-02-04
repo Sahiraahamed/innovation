@@ -1,0 +1,54 @@
+.parent {
+  min-height: 600px;
+  width: 100%;
+}
+.child {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* justify-content: flex-start; */
+}
+.one {
+  height: 200px;
+  width: 500px;
+  border: 1px solid rgb(114, 107, 107);
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  position: relative;
+}
+.two {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
+.large {
+  height: 200px;
+  width: 200px;
+}
+.size {
+  display: flex;
+  flex-direction: row;
+}
+.fontt {
+  font-size: medium;
+}
+.fonttt {
+  font-size: small;
+}
+.boy {
+  height: 50px;
+  width: 50px;
+  border: 1px solid rgb(80, 61, 61);
+  border-radius: 50px;
+}
+.sms {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  right: 0px;
+}
+.medium {
+  font-weight: bold;
+}
